@@ -1,0 +1,33 @@
+{
+  "name": "fetch-shared",
+  "version": "1.0.0",
+  "description": "Download shared files",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine --reporter=jamocha/spec --config=test/.jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apla/fetch-shared.git"
+  },
+  "keywords": [
+    "google",
+    "drive",
+    "onedrive",
+    "yandex",
+    "disk"
+  ],
+  "author": "Ivan Baktsheev <dot.and.thing@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/apla/fetch-shared/issues"
+  },
+  "homepage": "https://github.com/apla/fetch-shared#readme",
+  "devDependencies": {
+    "jamocha": "^1.0.0",
+    "jasmine": "^3.5.0"
+  }
+}
